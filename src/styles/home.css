@@ -87,9 +87,10 @@ article{
     width: 10rem;
     /* position: relative; */
     border-radius: 50px;
+    background-color: rgb(250, 221, 221);
     background-color: #FFFFE8;
     background-color: #CDE990;
-    background-color: rgb(250, 221, 221);
+    background-color: white;
     
     display: flex;
     flex-direction: column;
@@ -101,7 +102,7 @@ article{
 article::after{
     content: "";
     border-radius: 50px;
-    /* background-color: white; */
+    background-color: white;
     width: 100%;
     position: absolute;
     top: 2%;
