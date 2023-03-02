@@ -16,7 +16,7 @@ const Main = () => {
     <Work/>
     <Services/>
     <Samples/>
-    <Timeline/>
+    {/* <Timeline/> */}
     <Testimonials/>
     <Contact/>
     </>
