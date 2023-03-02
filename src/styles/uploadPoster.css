@@ -1,0 +1,65 @@
+.upload-poster-form-wrapper {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: pink;
+}
+
+.upload-poster-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: rgb(232, 224, 224);
+    width: 80%;
+    height: 70%;
+    align-items: center;
+    font-family: "Roboto";
+    box-shadow: 0 0 10px 6px rgba(11, 11, 11, 0.3);
+}
+
+.uploadPoster-title {
+    margin: 50px auto;
+    width: 100%;
+    text-align: center;
+}
+
+.upload-poster-input-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.upload-poster-input-wrapper>button {
+    width: 90px;
+    height: 40px;
+    background-color: none;
+    border: none;
+    transition: 0.4s all ease-in-out;
+}
+.upload-poster-input-wrapper>button:hover{
+    transform: scale(1.07);
+    font-weight: 500;
+    box-shadow: 0px 0px 4px 2px rgba(11, 11, 11, 0.3);
+}
+
+input::-webkit-file-upload-button {
+    background-color: pink;
+    border: none;
+    height: 40px;
+    transition: 0.3s ease-in;
+    border-radius: 5px;
+    margin-right:20px;
+
+
+}
+input::-webkit-file-upload-button:hover{
+    background-color: coral;
+    transform: scale(1.06);
+    margin-right: 25px;
+}

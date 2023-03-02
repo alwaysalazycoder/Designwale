@@ -1,0 +1,150 @@
+#home{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    /* background-color: red; */
+}
+
+section{
+    width: 100%;
+}
+section:first-of-type{
+    padding-left: 30px;
+}
+#work>svg{
+    color: black;
+}
+
+.sectiondiv{
+    /* border-top: 1px solid coral; */
+    height: 100%;
+    padding: 6rem;
+
+}
+.sectiondiv h1{
+    font-weight: 900 4rem "roboto";
+    font-size: 3rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+.typewriterpara{
+    height: 40px;
+    letter-spacing: 2px;
+}
+.writer{
+    margin: 20px 0 20px 0;
+}
+section:last-of-type{
+    border-top: 1px solid FFD4D4;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+/* section:last-of-type::after{
+    content: "";
+    width: 40vmax;
+    height: 40vmax;
+    background-color: coral;
+    position: absolute;
+    z-index: -1;
+    border-radius: 50%;
+} */
+section:last-of-type img{
+    width: 40vmax;
+    height: 40vmax;
+    object-fit: contain;
+
+}
+
+@keyframes animatesvg {
+    to{
+        transform: translateX(-50%,-10px);
+    }
+}
+.sectiondiv > a{
+    text-decoration: none;
+    color: black;
+    width: 70px;
+    margin-right: 10px;
+    /* margin-bottom: 30px; */
+    height: 50px;
+    /* background-color: red; */
+}
+
+
+aside{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    /* background-color: red; */
+
+}
+
+article{
+    margin-top: 15px;
+    width: 10rem;
+    /* position: relative; */
+    border-radius: 50px;
+    background-color: #FFFFE8;
+    background-color: #CDE990;
+    background-color: rgb(250, 221, 221);
+    
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    padding: 0 20px ;
+    height: 5rem;
+}
+article::after{
+    content: "";
+    border-radius: 50px;
+    /* background-color: white; */
+    width: 100%;
+    position: absolute;
+    top: 2%;
+    left: -20%;
+    z-index: -1;
+}
+
+article>p{
+    font-weight: 650;
+    font-size: 2rem;
+    font-family: "Roboto";
+    /* font: 900 2rem ; */
+}
+article>span{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 70px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: peachpuff;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(242, 193, 150);
+  }
+  .contact-bundle{
+    display: flex;
+    width: 55%;
+    height: 20%;
+    align-items: center;
+    justify-content: space-between;
+
+  }

@@ -1,25 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import "./styles/app.css"
+import { Link, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router } from 'react-router-dom';
+import Main from './components/Main';
 
-function App() {
+import UploadPoster from './components/Admin/UploadPoster.jsx';
+import UploadTestimony from './components/Admin/UploadTestimony';
+import "./styles/header.css"
+import "./styles/home.css"
+import UploadReels from './components/Admin/UploadReels';
+import Login from './components/Admin/Login';
+import "./styles/mediaQueries.css"
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Router>
+        <Routes>
+          <Route exact path= "/" element = {<Main/>} />
+          <Route exact path= "/admin/upload/posters" element = {<UploadPoster />} />
+          <Route exact path= "/admin/upload/testimony" element = {<UploadTestimony />} />
+          <Route exact path= "/admin/upload/reels" element = {<UploadReels/>} />
+          <Route exact path = "/admin/login" element = {<Login/>} />
+          
+        </Routes>
+      </Router>
+
+
+
+
+    </>
+  )
 }
 
-export default App;
+export default App
