@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Menu from "../components/Menu";
 import { BiMenuAltRight } from "react-icons/bi";
 import { CgClose } from "react-icons/cg";
 import logo from "../assests/logo.svg"
