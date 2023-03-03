@@ -198,7 +198,10 @@
   .testimony:first-child {
     margin-left: 20px;
   }
-  .first{
+  .trans{
    display: block;
+  }
+  .trans svg{
+    font-size: 29px;
   }
 }
