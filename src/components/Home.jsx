@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { animate, motion } from "framer-motion";
 import Typewriter from "typewriter-effect";
-import { BsArrowUpRight, BsChevronDoubleDown } from "react-icons/bs";
+import { BsArrowUpRight, BsChevronDoubleDown, BsChevronDown } from "react-icons/bs";
 import me from "../assests/logo.svg";
 
 const Home = () => {
@@ -107,6 +107,10 @@ const Home = () => {
             </aside>
           </div>
         </section>
+
+        <div className="down-arrow">
+          <BsChevronDown/>
+        </div>
 
         <section className="main-page-logo-section">
           <img src={me} alt="Say" className="main-page-logo" />

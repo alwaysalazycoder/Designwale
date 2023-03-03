@@ -20,6 +20,8 @@ const Work = () => {
                         interval={2000}
                         infiniteLoop={true}
                         autoPlay={true}
+                        preventMovementUntilSwipeScrollTolerance={true}
+                        emulateTouch={false}
                     >
                         {
                             data.map(i => (
