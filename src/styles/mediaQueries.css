@@ -201,6 +201,9 @@
   .trans{
    display: block;
   }
+  .nav-menu{
+    display:block;
+  }
   .trans svg{
     font-size: 29px;
   }
