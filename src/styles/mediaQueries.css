@@ -49,13 +49,13 @@
   .sectiondiv {
     padding-left: 20px;
   }
-  .contact-bundle{
+  .contact-bundle {
     margin-bottom: 60px;
   }
   .typewriterpara {
     width: 100vw;
   }
-  .increase{
+  .increase {
     margin-bottom: 30px;
   }
   .main-page-logo-section {
@@ -74,16 +74,16 @@
     object-fit: contain;
     display: none;
   }
-  .down-arrow{
+  .down-arrow {
     font-size: 38px;
     color: black;
     position: absolute;
     bottom: 60px;
     animation: up 0.9s ease-in infinite alternate;
   }
- 
+
   @keyframes up {
-    to{
+    to {
       transform: translateY(-10px);
     }
   }
@@ -106,10 +106,11 @@
   .work-carousel-details > p {
     display: none;
   }
-  #work{
+  #work {
     padding-top: 2rem;
+    height: 90vh;
   }
-  #work>h2{
+  #work > h2 {
     margin-bottom: 30px;
   }
   .image-slider {
@@ -124,7 +125,6 @@
     display: flex;
     height: 68vh;
     width: 90vw;
-    background-color: red;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -136,7 +136,8 @@
     align-items: center;
     text-align: center;
   }
-  .work-carousel-details>button , .work-carousel-details>h3{
+  .work-carousel-details > button,
+  .work-carousel-details > h3 {
     margin-left: 10%;
   }
   .sectiondiv {
@@ -154,7 +155,7 @@
     flex-direction: column;
   }
   .service-card-wrapper {
-    height: 80vh;
+    height: 60vh;
     width: 100%;
     margin-bottom: 20px;
   }

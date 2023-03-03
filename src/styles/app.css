@@ -19,6 +19,8 @@ body{
     overflow-x: hidden;
     background-color: var(--secondary); 
     background-color: #FD8A8A;
+    background-color: rgb(251, 213, 213);
+
     /* background-color: rgb(251, 213, 213); */
 
 }
