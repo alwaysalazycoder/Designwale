@@ -25,7 +25,7 @@ const Header = () => {
       <div className="responsive-navbar" ref={navRef}>
         <div className="hstack">
           <div className="nav-logo">
-            <img src="" alt="fuck" />
+            <img src={logo} alt="fuck" />
           </div>
           <div className="nav-close-btn">
             <CgClose onClick={showNavbar}/>

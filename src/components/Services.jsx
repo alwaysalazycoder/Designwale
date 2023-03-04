@@ -14,7 +14,7 @@ const Services = () => {
             <div className="services-wrapper">
                 {
                     serviceData.map((item,index)=>(
-                        <ServiceCard serviceSrc={item.serviceUrl}/>
+                        <ServiceCard serviceSrc={item.serviceUrl} key={index}/>
                     ))
                 }
             </div>

@@ -11,7 +11,7 @@ const Testimonials = () => {
       <div className="testimonials-title">
         <h2>Testimonials</h2>
       </div>
-        <div className="testimonials-wrapper">
+        <div className="testimonials-wrapper">  
 
           {
             testData.map((i,index) => (
