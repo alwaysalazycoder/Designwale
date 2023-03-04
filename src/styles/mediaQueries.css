@@ -10,7 +10,7 @@
   }
 }
 @media screen and (max-width: 500px) {
-  html{
+  html {
     scroll-behavior: smooth;
   }
   .header-section {
@@ -124,7 +124,7 @@
   .workItem {
     margin-top: 0px;
     display: flex;
-    height: 68vh;
+    height: 75vh;
     width: 90vw;
     flex-direction: column;
     align-items: center;
@@ -203,14 +203,14 @@
     display: block;
     font-size: 32px;
   }
-  .nav-logo img{
+  .nav-logo img {
     width: 140px;
     object-fit: contain;
   }
-  .nav-close-btn{
+  .nav-close-btn {
     font-size: 32px;
   }
-  .stack{
+  .stack {
     width: 100%;
     height: 60%;
     display: flex;
@@ -218,7 +218,7 @@
     justify-content: flex-start;
     align-items: center;
   }
-  .stack>div{
+  .stack > div {
     width: 100%;
     padding: 15px;
     text-align: center;
@@ -231,13 +231,12 @@
     transition: all ease-in 0.2s;
     font-weight: 500;
   }
-  .stack>div:hover{
+  .stack > div:hover {
     background-color: rgb(251, 234, 237);
   }
 
-
   /* services redesign */
-  .services-wrapper{
+  .services-wrapper {
     display: flex;
     width: 90vw;
     height: 80vh;
@@ -245,19 +244,16 @@
     overflow-y: hidden;
     align-items: center;
     justify-content: flex-start;
- 
-
   }
-  .service-card-wrapper{
+  .service-card-wrapper {
     height: 80%;
     min-width: 80vw;
     margin-right: 20px;
   }
-  .service-card-wrapper:first-child{
+  .service-card-wrapper:first-child {
     margin-left: 10px;
   }
-  .services-wrapper::-webkit-scrollbar{
+  .services-wrapper::-webkit-scrollbar {
     display: none;
   }
- 
 }
