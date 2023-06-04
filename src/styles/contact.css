@@ -34,7 +34,7 @@
 }
 .link-social{
     display: flex;
-    width: 40%;
+    width: 240px;
     height:55px;
     align-items: center;
     justify-content: space-around;
@@ -51,6 +51,7 @@
     box-shadow: 0 0 15px 2px rgba(11, 11, 11, 0.2);
     font-size: 30px;
     background-color: white;
+    
     cursor: pointer;
     
 }
@@ -70,6 +71,15 @@ input,
     outline: none;
     margin: 1rem;
     border: none;
+}
+.fadeEffect{
+    text-align: center;
+    font-weight: 300;
+    font-size: 2.7rem;
+    font-family: "Roboto";
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 2rem;
 }
 
 .contact-submit {
@@ -93,4 +103,7 @@ input,
     display: flex;
     align-items: center;
     justify-content: center;
+}
+.whatsapp{
+    color:#45bf63
 }
