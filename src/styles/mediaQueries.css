@@ -35,6 +35,9 @@
     padding-top: 30%;
     position: relative;
   }
+  .testimony{
+    max-width:90%
+  }
 
   .homesection {
     height: 65%;

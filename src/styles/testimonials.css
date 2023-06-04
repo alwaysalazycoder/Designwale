@@ -48,6 +48,9 @@
     background-color: rgb(243, 243, 243);
     margin-right: 40px;
 }
+@media screen {
+    
+}
 .testimony:first-child{
     margin-left: 40px;
 }
